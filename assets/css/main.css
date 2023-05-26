@@ -31,6 +31,8 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-image: linear-gradient(to right, #DECBA4, #3E5151);
+	background-size: cover;
 	
 }
 
@@ -54,6 +56,8 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	background-image: linear-gradient(to right, #DECBA4, #3E5151);
+	background-size: cover;
 }
 
 mark {
@@ -86,8 +90,8 @@ input, select, textarea {
 	body {
 		background-image: linear-gradient(to right, #DECBA4, #3E5151);
 		background-size: cover;
-		background-color: white;
-		background: #fff;
+		/* background-color: white; */
+		/* background: #fff; */
 		color: #1f1815;
 	}
 
@@ -217,6 +221,7 @@ input, select, textarea {
 
 	code {
 		background: #f7f7f7;
+		background: #000000;
 		border-radius: 0.35em;
 		border: solid 2px #efefef;
 		font-family: "Courier New", monospace;
@@ -1833,7 +1838,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #f7f7f7;
+		background: #f7f7f7; 
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
